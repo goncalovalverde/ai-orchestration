@@ -5,7 +5,7 @@
 * **Living Documentation:** Any change to infrastructure, dependencies, or architecture REQUIRES an update to the README and a new ADR in MADR format.
 
 ## 2. Engineering Rigor
-* **TDD & Mocking:** Suggest tests (with boundary/edge cases) BEFORE implementation. Use isolated mocks for external APIs/DBs.
+* **TDD & Mocking:** Always suggest tests (with boundary/edge cases) BEFORE writing implementation. Use isolated mocks for external APIs/DBs.
 * **Target Coverage:** 80% minimum.
 * **SOLID & SRP:** Strictly enforce Single Responsibility. Functions > 20 lines must be refactored.
 * **Naming:** PascalCase (Classes), camelCase (Vars), UPPER_SNAKE_CASE (Constants). No generic names like 'data'.
