@@ -10,6 +10,7 @@
 * **Behavioral:** Use **Sequence Diagrams** for any multi-step API flow or authentication handshake.
 * **State:** Use **State Machine Diagrams** for any logic involving complex status transitions (e.g., Order processing, Workflow engines).
 * **Format:** Always output diagrams in **Mermaid.js** syntax within code blocks for easy rendering in GitHub/GitLab/VS Code.
+* **Storage:** Always store diagram source code in /docs/diagrams using Mermaid syntax, and reference them in the relevant ADR or README.
 
 ## 3. Engineering Rigor
 * **TDD & Mocking:** Always suggest tests (with boundary/edge cases) BEFORE writing implementation. Use isolated mocks for external APIs/DBs.
